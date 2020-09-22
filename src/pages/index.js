@@ -3,8 +3,10 @@ import { Row, Col, Card } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
-import image from "../components/image";
 import homeImg from "../images/home.jpg";
+import jigyo1Img from "../images/jigyo1.jpg";
+import jigyo2Img from "../images/jigyo2.jpg";
+import jigyo3Img from "../images/jigyo3.jpg";
 import jigyonaiyoImg from "../images/jigyo-naiyo.svg";
 
 const IndexPage = () => (
@@ -62,7 +64,7 @@ const IndexPage = () => (
         <Row>
           <Col md={4}>
             <Card style={{marginTop:`1rem`}}>
-              <Card.Img variant="top" src={jigyonaiyoImg} />
+              <Card.Img variant="top" src={jigyo1Img} />
               <Card.Body>
                 <Card.Title>事業内容１</Card.Title>
                 <Card.Text>
@@ -74,7 +76,7 @@ const IndexPage = () => (
 
           <Col xs={12} md={4}>
             <Card style={{marginTop:`1rem`}}>
-              <Card.Img variant="top" src={jigyonaiyoImg} />
+              <Card.Img variant="top" src={jigyo2Img} />
               <Card.Body>
                 <Card.Title>事業内容２</Card.Title>
                 <Card.Text>
@@ -86,9 +88,9 @@ const IndexPage = () => (
 
           <Col xs={12} md={4}>
             <Card style={{marginTop:`1rem`}}>
-              <Card.Img variant="top" src={jigyonaiyoImg} />
+              <Card.Img variant="top" src={jigyo3Img} />
               <Card.Body>
-                <Card.Title>事業内容２</Card.Title>
+                <Card.Title>事業内容３</Card.Title>
                 <Card.Text>
                   サンプルですサンプルですサンプルですサンプルですサンプルですサンプルですサンプルですサンプルです
                 </Card.Text>
