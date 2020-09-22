@@ -11,4 +11,8 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/cosmo/bootswatch";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  font-family: 'Roboto', sans-serif;
+}
 // Add other customizations below.
