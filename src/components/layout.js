@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>
-        <Container className="p-3">{children}</Container>
+        <Container className="justfy-content-md-center">{children}</Container>
       </main>
       <footer className="footer mt-auto py-3 bg-light text-black text-center">
         © {new Date().getFullYear()}, Built with
